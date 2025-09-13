@@ -1,0 +1,79 @@
+/* Added a google font  */
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared colour in all  element */
+#nav-colour{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: rgba(71, 71, 71, 1);
+}
+/* shared button style  */
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 16px 20px;
+    border-radius: 5px;
+    color: white;
+   font-weight: bold;
+   border: none;
+}
+
+/* navbar styles  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px ;
+}
+#nav-title{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 48px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* banner styles  */
+.banner{
+    display: flex;
+    margin: 0px 38px 0px 100px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetigns{
+  font-size: 28px;
+  font-weight: 600;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-description{
+    color: rgba(117, 117, 117, 1);
+}
+.banner-profile-pic{
+     width: 580px; 
+}
+/* header background image add  */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
